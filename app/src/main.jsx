@@ -7,8 +7,8 @@ import './index.css'
 const scene = new THREE.Scene();
 //Sizer
 const sizes = {
-    width : 400,
-    height : 400
+    width : window.innerWidth,
+    height : window.innerWidth
 }
 
 // our mesh model
